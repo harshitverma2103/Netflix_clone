@@ -56,3 +56,57 @@ nav button {
     width: 10px;
     margin-left: 10px;
 }
+
+.header_content {
+    text-align: center;
+    padding-top: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header_content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    font-family: sans-serif;
+}
+
+.header_content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_content p {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.Email-signup {
+    background: #fff;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+
+.Email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.Email-signup button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
