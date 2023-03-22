@@ -129,6 +129,17 @@ nav button {
     margin-bottom: 35px;
 }
 
+.text-col h1 {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-col p {
+    font-size: medium;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
 .img-col {
     flex-basis: 50%;
     margin-bottom: 35px;
