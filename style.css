@@ -129,9 +129,10 @@ nav button {
     margin-bottom: 35px;
 }
 
-.text-col h1 {
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+.feactures h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .text-col p {
