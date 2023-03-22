@@ -27,7 +27,7 @@ nav {
     padding: 10px 0;
 }
 
-.logo{
+.logo {
     width: 150px;
     cursor: pointer;
 }
@@ -43,4 +43,16 @@ nav button {
     margin-left: 10px;
     cursor: pointer;
     font-family: sans-serif;
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
 }
