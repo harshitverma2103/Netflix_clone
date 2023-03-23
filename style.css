@@ -136,9 +136,10 @@ nav button {
 }
 
 .text-col p {
-    font-size: medium;
+    font-size: 25px;
     font-family: sans-serif;
-    padding-top: 20px;
+    line-height: 35px;
+    padding-top: 10px;
 }
 
 .img-col {
