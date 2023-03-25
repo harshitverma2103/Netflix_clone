@@ -206,7 +206,7 @@ input[type="radio"] {
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s , padding 0.5s;
+    transition: max-height 0.5s, padding 0.5s;
 }
 
 .accordion input[type="radio"]:checked+label+.content {
@@ -218,11 +218,40 @@ input[type="radio"] {
     transform: rotate(135deg);
 }
 
-.faq .Email-signup{
+.faq .Email-signup {
     max-width: 600px;
     margin: 20px auto 60px;
 }
 
 .faq small {
     font-size: 22px;
+}
+
+.footer {
+    padding: 50px 15% 10px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
 }
