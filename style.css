@@ -263,3 +263,11 @@ input[type="radio"] {
     border-radius: 3px;
     font-family: sans-serif;
 }
+
+.copyright-text {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    color: #777;
+}
