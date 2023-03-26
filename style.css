@@ -276,3 +276,71 @@ input[type="radio"] {
     font-family: sans-serif;
     color: #777;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+
+    nav .language-btn {
+        padding: 4px 8px;
+    }
+
+    .header_content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+
+    .header_content h1 {
+        font-size: 30px;
+    }
+
+    .Email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .text-col,
+    .img-col {
+        flex-basis: 100%;
+    }
+
+    .feactures h2 {
+        font-size: 30px;
+    }
+
+    .feactures p {
+        font-size: 15px;
+    }
+
+    .row:nth-child(2),
+    .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .feactures .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    lable::after{
+        font-size: 22px;
+    }
+}
