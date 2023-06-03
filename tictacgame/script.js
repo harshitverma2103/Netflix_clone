@@ -1,5 +1,6 @@
 console.log("Welcome Tic Tac Toe");
 let audioTurn = new Audio("gamesound.mp3");
+let gameOver = new Audio("gameover.mp3");
 let turn = "X";
 let isGameOver = false;
 
@@ -29,6 +30,9 @@ const checkWin = () => {
             document.getElementsByClassName('info')[0].innerText =
                 boxtext[e[0]].innerText + ' won';
             isGameOver = true;
+            if(isGameOver === true) {
+                gameOver.play();
+            }
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '200px';
         }
         
