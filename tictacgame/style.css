@@ -34,7 +34,7 @@ nav ul {
     font-family: 'Roboto', sans-serif;
 }
 
-.box{
+.box {
     border: 2px solid black;
     font-size: 8vw;
     cursor: pointer;
@@ -43,31 +43,32 @@ nav ul {
     align-items: center;
 }
 
-.box:hover{
+.box:hover {
     background-color: rgb(234, 214, 250);
 }
 
-.gameInfo{
+.gameInfo {
     padding: 0 34px;
     font-family: 'Raleway', sans-serif;
 }
 
-.imgbox img{
-    display: none;
+.imgbox img {
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
-.br-0{
+.br-0 {
     border-right: 0;
 }
 
-.bl-0{
+.bl-0 {
     border-left: 0;
 }
 
-.bt-0{
+.bt-0 {
     border-top: 0;
 }
 
-.bb-0{
+.bb-0 {
     border-bottom: 0;
 }
