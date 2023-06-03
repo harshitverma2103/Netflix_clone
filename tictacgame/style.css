@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 55px;
+    font-size: 28px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
