@@ -50,7 +50,7 @@ Array.from(boxes).forEach(element => {
             audioTurn.play();
             checkWin();
             if (!isGameOver) {
-                document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
+                document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
             }
         }
     });
@@ -64,6 +64,6 @@ reset.addEventListener('click', () => {
     });
     turn = "X";
     isGameOver = false
-    document.getElementsByClassName('info')[0].innerText = "Turn for" + turn;
+    document.getElementsByClassName('info')[0].innerText = "Turn for " + turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '0px';
 })
