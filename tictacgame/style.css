@@ -52,6 +52,10 @@ nav ul {
     font-family: 'Raleway', sans-serif;
 }
 
+.gameInfo h1 {
+    font-size: 1.8rem;
+}
+
 .imgbox img {
     width: 0;
     transition: width 1s ease-in-out;
@@ -74,7 +78,7 @@ nav ul {
     border-bottom: 0;
 }
 
-#reset{
+#reset {
     margin: 0 25px;
     padding: 2px 20px;
     background-color: #f3e7f9;
@@ -86,6 +90,26 @@ nav ul {
     border-color: black;
 }
 
-.info{
+.info {
     font-size: 22px;
+}
+
+@media screen and (max-width: 800px) {
+    .gameContainer {
+        flex-wrap: wrap;
+    }
+
+    .gameInfo {
+        margin-top: 34px;
+    }
+
+    .gameInfo h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
 }
