@@ -30,12 +30,12 @@ const checkWin = () => {
             document.getElementsByClassName('info')[0].innerText =
                 boxtext[e[0]].innerText + ' won';
             isGameOver = true;
-            if(isGameOver === true) {
+            if (isGameOver === true) {
                 gameOver.play();
             }
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '200px';
         }
-        
+
     });
 }
 
@@ -53,5 +53,17 @@ Array.from(boxes).forEach(element => {
                 document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
             }
         }
-    }); 
+    });
 });
+
+
+reset.addEventListener('click', () => {
+    let boxtext = document.querySelectorAll('.boxtext');
+    Array.from(boxes).forEach(element => {
+        element.innerText = "";
+    });
+    turn = "X";
+    isGameOver = false
+    document.getElementsByClassName('info')[0].innerText = "Turn for" + turn;
+    document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '0px';
+})
