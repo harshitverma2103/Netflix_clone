@@ -33,7 +33,7 @@ const checkWin = () => {
             if (isGameOver === true) {
                 gameOver.play();
                 setTimeout(function () {
-                    alert("congratulation " + winningPlayer + " the game !");
+                    alert("congratulation " + winningPlayer + " the game ❤️ !");
                 }, 1500); // Display the alert after a 1.5-second delay
 
             }
