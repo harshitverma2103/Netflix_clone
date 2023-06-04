@@ -27,11 +27,15 @@ const checkWin = () => {
             boxtext[e[2]].innerText === boxtext[e[1]].innerText &&
             boxtext[e[0]].innerText !== ""
         ) {
-            document.getElementsByClassName('info')[0].innerText =
+            let winningPlayer = document.getElementsByClassName('info')[0].innerText =
                 boxtext[e[0]].innerText + ' won';
             isGameOver = true;
             if (isGameOver === true) {
                 gameOver.play();
+                setTimeout(function () {
+                    alert("congratulation " + winningPlayer + " the game !");
+                }, 1500); // Display the alert after a 1.5-second delay
+
             }
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = '200px';
         }
